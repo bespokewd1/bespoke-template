@@ -9,7 +9,13 @@ eleventyNavigation:
 ---
 
 {% block head %}
-    <link rel="stylesheet" href="/assets/css/local.css">
+    <link rel="stylesheet" href="assets/css/local.css">
+
+     <!--          Blaze Assets        -->
+    <link rel="stylesheet" href="assets/css/blaze.css">
+    <script src="assets/js/blaze-slider.dev.js"></script>
+
+
 {% endblock %}
 
 {% extends 'layouts/base.html' %}
@@ -26,7 +32,7 @@ eleventyNavigation:
                 <h1 class="cs-title">
                     The CodeStitch Advanced Starter Kit - Main Branch
                 </h1>
-                <a href="" class="cs-button-solid">Call to Action</a>
+                <a href="" class="cs-button-solid">Request A Qoute</a>
                 <!--Bottom Corners-->
                 <div class="cs-corners" aria-hidden="true"></div>
             </div>
@@ -78,7 +84,7 @@ eleventyNavigation:
     <!--                 Side By Side                 -->
     <!-- ============================================ -->
 
-    <section id="sbs-523">
+    <section id="sbs-523" >
         <div class="cs-container">
             <div class="cs-content">
                 <span class="cs-topper">How it works</span>
@@ -109,6 +115,71 @@ eleventyNavigation:
                 </picture>
             </div>
         </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                    Events                    -->
+    <!-- ============================================ -->
+
+    <section id="events-1928">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/faq-left.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/faq-left.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/faq-left.jpg" alt="dermatologist" width="522" height="680">
+                </picture>
+                <img class="cs-graphic cs-twirl" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/twirl.svg" alt="graphic" width="177" height="97" aria-hidden="true">
+                <img class="cs-graphic cs-peach" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/peach-blob.svg" alt="graphic" width="86" height="65" aria-hidden="true">
+                <img class="cs-graphic cs-blob" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-beige-blob.svg" alt="graphic" width="528" height="468" aria-hidden="true">
+                <img class="cs-graphic cs-leaf" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/leaf-2.svg" alt="graphic" width="175" height="143" aria-hidden="true">
+            </div>
+            <div class="cs-content">
+                <div class="cs-flex">
+                    <span class="cs-topper">Promotions and Discounts</span>
+                    <h2 class="cs-title">Don't Miss Out!</h2>
+                </div>
+                <ul class="cs-card-group">
+                    <li class="cs-item">
+                        <span class="cs-date">
+                            <strong>26</strong>
+                            Mar 2024
+                        </span>
+                        <div class="cs-info">
+                            <h3 class="cs-h3">30% offer on all services</h3>
+                            <span class="cs-time"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-clock.svg" alt="icon" width="24" height="24" loading="lazy" decoding="async">12:00AM - 02:00PM</span>
+                        </div>
+                        <a href="" class="cs-button-solid">Buy Ticket</a>
+                    </li>
+                    <li class="cs-item">
+                        <span class="cs-date">
+                            <strong>17</strong>
+                            Apr 2024
+                        </span>
+                        <div class="cs-info">
+                            <h3 class="cs-h3">15% offer on dermal fillers services</h3>
+                            <span class="cs-time"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-clock.svg" alt="icon" width="24" height="24" loading="lazy" decoding="async">12:00AM - 02:00PM</span>
+                        </div>
+                        <a href="" class="cs-button-solid">Buy Ticket</a>
+                    </li>
+                    <li class="cs-item">
+                        <span class="cs-date">
+                            <strong>12</strong>
+                            May 2024
+                        </span>
+                        <div class="cs-info">
+                            <h3 class="cs-h3">40% offer on micro needling services</h3>
+                            <span class="cs-time"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-clock.svg" alt="icon" width="24" height="24" loading="lazy" decoding="async">12:00AM - 02:00PM</span>
+                        </div>
+                        <a href="" class="cs-button-solid">Buy Ticket</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <img class="cs-graphic3" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/faces-graphic.svg" alt="graphic" loading="lazy" decoding="async" width="835" height="912">
+        <img class="cs-graphic4" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/faces-graphic-flipped.svg" alt="graphic" loading="lazy" decoding="async" width="835" height="912">
     </section>
 
     <!-- ============================================ -->
@@ -161,6 +232,7 @@ eleventyNavigation:
                     <p class="cs-item-text">If using the sass/less branch, you can move over the starter styles to get a headstart. Otherwise, clear all page data and styles, and begin!</p>
                 </li>
             </ul>
+            <a href="" class="cs-button-solid">Get Started</a>
         </div>
         <!--Tire Screech-->
     </section>
@@ -250,5 +322,657 @@ eleventyNavigation:
             </div>
         </div>
     </section>
+
+    <!-- ============================================ -->
+    <!--                     FAQ                      -->
+    <!-- ============================================ -->
+
+    <section id="faq-351">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Asked questions</span>
+                <h2 class="cs-title">Frequently Asked Questions</h2>
+            </div>
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How much are house cleaning services?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Some 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What is your plan cancellation policy?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How long should a house cleaning take?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How much are house cleaning services?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Can cleanings be scheduled?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+            </ul>
+            <!--Added second UL, this allows you to open an FAQ item on each side without messing up the flexbox for the other -->
+            <ul class="cs-faq-group">
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How much are house cleaning services?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Some cleaning plans require a minimum commitment term. Cancelling your plan before the minimum term is complete will result in a $99 fee. If you want to learn more information about how to cancel, please inbox us.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What is your plan cancellation policy?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How long should a house cleaning take?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How much are house cleaning services?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Can cleanings be scheduled?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- ============================================ -->
+    <!--                  Reviews                     -->
+    <!-- ============================================ -->
+
+    <section id="reviews-1833">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Testimonials</span>
+                <h2 class="cs-title">Our Members Testimonials</h2>
+            </div>
+            <div class="blaze-slider">
+                <div class="blaze-container">
+                <div class="blaze-track-container">
+                    <div class="blaze-track">
+                    <div class="blaze-slide">
+                        <div class="cs-flex-group">
+                            <div class="cs-review-group">
+                                <!--Stars-->
+                                <img class="cs-stars" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/stars-gym.svg" alt="quotes" width="97" height="80" aria-hidden="true">
+                                <p class="cs-review-text">
+                                    ”Great gym! A new gym with modern equipment and facilities makes training so much easier. Always willing to help you with your training”
+                                </p>
+                                <span class="cs-name">Britney Allison</span>
+                                <span class="cs-job">Founder of Yokoloko</span>
+                                <!--Quote-->
+                                <img class="cs-quote" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/black-quotes.svg" alt="quotes" width="97" height="80" aria-hidden="true">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="blaze-nav">
+                    <div class="blaze-pagination"></div>
+                </div>
+                </div>
+            </div>
+            <!--Slider Initialization Script-->
+            <script>
+                const el = document.querySelector('.blaze-slider')
+                new BlazeSlider(el)
+            </script>
+            <a href="https://www.google.com/" class="cs-button-solid">See More Reviews</a>
+        </div>
+        <!--Texture Graphic-->
+        <picture class="cs-background">
+            <!--Mobile Image-->
+            <source media="(max-width: 1023px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dotted-texture-m.png">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 1024px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dotted-texture.png">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dotted-texture.png" alt="dotted texture" width="1920" height="600">
+        </picture>
+    </section>
+                                    
+    <!-- ============================================ -->
+    <!--                  Services                    -->
+    <!-- ============================================ -->
+
+    <section id="services-1644">
+        <div class="cs-container">
+            <div id="cs-content-829">
+                <div class="cs-flex">
+                    <span class="cs-topper">Our Services</span>
+                    <h2 class="cs-title">Laborum magna nulla  Consecte duis</h2>
+                </div>
+                <p class="cs-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora nulla sit reprehenderit quod suscipit, soluta minus impedit libero dolor et aspernatur ratione blanditiis nihil!
+                </p>
+            </div>  
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <div class="cs-image-group">
+                        <img class="cs-icon" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/checkmark-circle-gold.svg" alt="icon" width="48"
+                                height="48" aria-hidden="true">
+                    </div>
+                    <div class="cs-flex">
+                        <h2 class="cs-h2">Service 1</h2>
+                        <p class="cs-item-text">
+                            We provide some of the finest quality, most responsive and reliable, and cost effective services and solutions.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <div class="cs-image-group">
+                        <img class="cs-icon" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dashboard-gold.svg" alt="icon" width="48"
+                                height="48" aria-hidden="true">
+                    </div>
+                    <div class="cs-flex">
+                        <h2 class="cs-h2">Service 2</h2>
+                        <p class="cs-item-text">
+                            Fortune 500 companies to smaller and medium-sized companies to help manage risks to as low as reasonably practical.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <div class="cs-image-group">
+                        <img class="cs-icon" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Lifebuoy-gold.svg" alt="icon" width="48"
+                                height="48" aria-hidden="true">
+                    </div>
+                    <div class="cs-flex">
+                        <h2 class="cs-h2">Service 3</h2>
+                        <p class="cs-item-text">
+                            Highly experienced staff of more than 100 professionals averaging 29+ years in industry and hands-on knowledge.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <div class="cs-image-group">
+                        <img class="cs-icon" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like-gold.svg" alt="icon" width="48"
+                                height="48" aria-hidden="true">
+                    </div>
+                    <div class="cs-flex">
+                        <h2 class="cs-h2">Service 4</h2>
+                        <p class="cs-item-text">
+                            Highly experienced staff of more than 100 professionals averaging 29+ years in industry and hands-on knowledge.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <a href="" class="cs-button-solid">Schedule a Service</a>
+        </div>                            
+    </section>    
+
+    <!-- ============================================ -->
+    <!--              Tabbed Gallery                  -->
+    <!-- ============================================ -->
+
+    <section id="gallery-974" class="cs-section-breaker">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Portfolio</span>
+                <h2 class="cs-title">Some Work from Our Memorable Gallery</h2>
+                <div class="cs-button-group">
+                    <button class="cs-button" data-filter="one">
+                        Highlights
+                    </button>
+                    <button class="cs-button" data-filter="two">
+                        Hair Cut
+                    </button>
+                    <button class="cs-button" data-filter="three">
+                        Coloring
+                    </button>
+                    <button class="cs-button" data-filter="four">
+                        Extensions
+                    </button>
+                </div>
+            </div>
+            <div class="cs-gallery-wrapper">
+                <!--Gallery 1-->
+                <div class="cs-gallery" data-category="one">
+                    <!--Picture 1-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 2-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 3-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 4-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 5-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 6-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 7-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 8-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                </div>
+                <!--Gallery 2-->
+                <div class="cs-gallery cs-hidden" data-category="two">
+                    <!--Picture 1-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 2-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 3-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 4-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 5-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 6-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 7-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 8-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                </div>
+                <!--Gallery 3-->
+                <div class="cs-gallery cs-hidden" data-category="three">
+                    <!--Picture 1-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 2-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 3-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 4-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 5-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 6-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 7-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 8-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                </div>
+                <!--Gallery 4-->
+                <div class="cs-gallery cs-hidden" data-category="four">
+                    <!--Picture 1-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 2-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 3-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 4-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 5-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 6-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 7-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                    <!--Picture 8-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg" alt="gallery" width="305" height="400">
+                    </picture>
+                </div>
+            </div>
+            <a href="" class="cs-button-solid">View Gallery</a>
+        </div>
+    </section>
+
+    <!-- JS for Tabbed Gallery, remove if Tabbed Gallery is not used -->
+    <script src="assets/js/tabbed-gallery.js"></script>
+
+    <!-- ============================================ -->
+    <!--              Regular  Gallery                -->
+    <!-- ============================================ -->
+
+    <section id="gallery-973" class="cs-section-breaker">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Portfolio</span>
+                <h2 class="cs-title">Some Work from Our Memorable Gallery</h2>
+                <p class="cs-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti repudiandae consectetur maiores nostrum ratione atque itaque earum, in officiis quod hic quidem voluptas. Illum velit delectus optio modi molestiae eius?
+                </p>
+            </div>
+            <div class="cs-gallery">
+                <!--Picture 1-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair10.jpg" alt="gallery" width="305" height="400">
+                </picture>
+                <!--Picture 2-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair11.jpg" alt="gallery" width="305" height="400">
+                </picture>
+                <!--Picture 3-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair12.jpg" alt="gallery" width="305" height="400">
+                </picture>
+                <!--Picture 4-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair14.jpg" alt="gallery" width="305" height="400">
+                </picture>
+                <!--Picture 5-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair15.jpg" alt="gallery" width="305" height="400">
+                </picture>
+                <!--Picture 6-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair16.jpg" alt="gallery" width="305" height="400">
+                </picture>
+                <!--Picture 7-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair17.jpg" alt="gallery" width="305" height="400">
+                </picture>
+                <!--Picture 8-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair13.jpg" alt="gallery" width="305" height="400">
+                </picture>
+            </div>
+            <a href="" class="cs-button-solid">View Gallery</a>
+        </div>
+    </section>
+                                
+    <!-- ============================================ -->
+    <!--                    Blog                      -->
+    <!-- ============================================ -->
+
+    <section id="blog-1701">
+        <picture class="cs-background">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)"
+                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)"
+                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg">
+            <img loading="lazy" decoding="async"
+                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg"
+                    alt="busines meeting" width="522" height="609" aria-hidden="true">
+        </picture>
+        <div class="cs-container">
+            <div class="cs-news">
+                <div class="cs-content">
+                    <span class="cs-topper">Our Blog</span>
+                    <h2 class="cs-title">Latest News</h2>
+                </div>
+                <div class="cs-card-group">
+                    <div class="cs-item">
+                        <picture class="cs-picture">
+                            <source media="(max-width: 600px)"
+                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-one.png">
+                            <source media="(min-width: 601px)"
+                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-one.png">
+                            <img loading="lazy" decoding="async"
+                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-one.png"
+                                    alt="volunteers" width="630" height="601" aria-hidden="true">
+                        </picture>
+                        <div class="cs-item-text">
+                            <h3 class="cs-h3">With more than 100 highly experienced professionals averaging 29+ years of experience.
+                            </h3>
+                            <p class="cs-desc">
+                                In industry best practices and lessons learned, we provide value-added services and solutions to a wide variety of industry, both onshore and offshore.
+                            </p>
+                            <a href="" class="cs-link">
+                                <span class="cs-link-text">Get Direction</span>
+                                <img class="cs-arrow" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                                        alt="icon" width="20" height="20" aria-hidden="true" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cs-item">
+                        <picture class="cs-picture">
+                            <source media="(max-width: 600px)"
+                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-two.png">
+                            <source media="(min-width: 601px)"
+                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-two.png">
+                            <img loading="lazy" decoding="async"
+                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-two.png"
+                                    alt="volunteers" width="630" height="601" aria-hidden="true">
+                        </picture>
+                        <div class="cs-item-text">
+                            <h3 class="cs-h3">
+                                Consulting and training firm that specializes in process safety, risk management, occupational health
+                            </h3>
+                            <p class="cs-desc">
+                                Risk management, occupational health and safety, fire protection, emergency and crisis management, and security risk management.
+                            </p>
+                            <a href="" class="cs-link">
+                                <span class="cs-link-text">Get Direction</span>
+                                <img class="cs-arrow" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                                        alt="icon" width="20" height="20" aria-hidden="true" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cs-item">
+                        <picture class="cs-picture">
+                            <source media="(max-width: 600px)"
+                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-three.png">
+                            <source media="(min-width: 601px)"
+                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-three.png">
+                            <img loading="lazy" decoding="async"
+                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/enterprise-news-three.png"
+                                    alt="volunteers" width="630" height="601" aria-hidden="true">
+                        </picture>
+                        <div class="cs-item-text">
+                            <h3 class="cs-h3">With more than 100 highly experienced professionals averaging 29+ years of experience.
+                            </h3>
+                            <p class="cs-desc">
+                                In industry best practices and lessons learned, we provide value-added services and solutions to a wide variety of industry, both onshore and offshore.
+                            </p>
+                            <a href="" class="cs-link">
+                                <span class="cs-link-text">Get Direction</span>
+                                <img class="cs-arrow" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                                        alt="icon" width="20" height="20" aria-hidden="true" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="cs-button-solid">Read More of Our Blog</a>
+            </div>
+        </div>
+    </section>
+                                                              
 
 {% endblock %}
