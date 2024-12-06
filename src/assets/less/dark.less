@@ -38,30 +38,85 @@
     }
 }
 
-/* Homepage Hero */
-body.dark-mode{
-    #cs-navigation {
-        background: rgba(26, 26, 26, 0.80);
+/* Navigation */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode{
+        #cs-navigation {
+            background: rgba(26, 26, 26, 0.80);
+        }
+    }
+}
+/* Footer */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode #footer-1390 {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+/* Hero */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #hero-227 {
+            .cs-background {
+                &:before {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+/* Dark Mode */
+@media only screen and (max-width: 63.9375rem) {
+    body.dark-mode {
+        #cs-navigation {
+            background-color: var(--dark);
+
+            .cs-logo {
+                /* makes it white */
+                filter: grayscale(1) brightness(1000%);
+            }
+
+            .cs-line {
+                background-color: #fff;
+            }
+
+            .cs-ul-wrapper {
+                background-color: var(--medium);
+            }
+
+            .cs-li-link {
+                color: var(--bodyTextColorWhite);
+            }
+        }
     }
 }
 
-/* Homepage How it Works */
+/* Dark Mode */
 @media only screen and (min-width: 0rem) {
-    body.dark-mode #sbs-523 .cs-title,
-    body.dark-mode #sbs-523 .cs-text {
-        color: var(--bodyTextColorWhite);
-    }
-    body.dark-mode #sbs-523 .cs-text {
-        opacity: 0.8;
-    }
-    body.dark-mode #sbs-523 .cs-image-group:before {
-        background-color: var(--secondary);
-        opacity: 0.3;
-    }
-    body.dark-mode #sbs-523 .cs-picture-small {
-        border-color: var(--dark);
+    body.dark-mode {
+        #sbs-523 {
+            .cs-title,
+            .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text {
+                opacity: 0.8;
+            }
+
+            .cs-image-group {
+                &:before {
+                    background-color: var(--secondary);
+                    opacity: 0.3;
+                }
+            }
+
+            .cs-picture-small {
+                border-color: var(--dark);
+            }
+        }
     }
 }
+
 
 /* Homepage Steps */
 @media only screen and (min-width: 0rem) {
@@ -240,3 +295,57 @@ body.dark-mode{
     opacity: 0.8;
     }
 }
+
+/* Services */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #services-1259 {
+            .cs-topper {
+                color: var(--primaryLight);
+            }
+
+            .cs-text,
+            .cs-item-text {
+                opacity: 0.8;
+            }
+
+            .cs-picture {
+                background-color: var(--medium);
+            }
+
+            .cs-image {
+                &:before {
+                    /* if you choose a different dark mode scheme or a different background color for this section on dark mode, change the rgba colors to match */
+                    background: -moz-linear-gradient(
+                        top,
+                        rgba(255, 255, 255, 0) 0%,
+                        rgba(8, 32, 50, 1) 100%
+                    ); /* FF3.6-15 */
+                    background: -webkit-linear-gradient(
+                        top,
+                        rgba(255, 255, 255, 0) 0%,
+                        rgba(8, 32, 50, 1) 100%
+                    ); /* Chrome10-25,Safari5.1-6 */
+                    background: linear-gradient(
+                        to bottom,
+                        rgba(255, 255, 255, 0) 0%,
+                        rgba(8, 32, 50, 1) 100%
+                    );
+                }
+            }
+
+            .cs-icon {
+                /* turns it white */
+                filter: grayscale(1) brightness(1000%);
+            }
+
+            .cs-title,
+            .cs-text,
+            .cs-h3,
+            .cs-item-text {
+                color: var(--bodyTextColorWhite);
+            }
+        }
+    }
+}
+                 
