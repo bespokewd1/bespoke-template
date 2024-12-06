@@ -6,7 +6,7 @@
     <div class="cs-container">
         <div class="cs-top">
             <a aria-label="go back to home" class="cs-logo" href="">
-                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://codestitch.app/frontend/images/logo-white.svg" alt="logo" width="209" height="40">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="{{ client.logo_url }}" alt="logo" width="209" height="40">
             </a>
             <ul class="cs-ul">
                 {% set navPages = collections.all | eleventyNavigation %}
@@ -42,13 +42,13 @@
                 </li>
             </ul>
             <span class="cs-copyright">
-                © Copyright 2023 -
-                <a href="" class="cs-copyright-link">CodeStitch</a>
+                © Copyright 2024 -
+                <a href="https://bespokewebdesign.ca/" class="cs-copyright-link">Bespoke Web Services</a>
             </span>
             <div class="cs-flex">
-                <a href="" class="cs-copyright-link">Privacy Policy</a>
+                <a href="/privacy-policy/" class="cs-copyright-link">Privacy Policy</a>
                 <span class="cs-separater">|</span>
-                <a href="" class="cs-copyright-link">Terms of Use</a>
+                <a href="/terms-of-use/" class="cs-copyright-link">Terms of Use</a>
             </div>
         </div>
     </div>
