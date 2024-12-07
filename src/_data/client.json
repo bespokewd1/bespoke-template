@@ -1,5 +1,5 @@
 {
-    "name": "Code Stitch Web Designs",
+    "name": "Bespoke Template",
     "email": "help@codestitch.app",
     "phoneForTel": "555-123-4567",
     "phoneFormatted": "(555) 123-4567",
@@ -17,6 +17,6 @@
         "instagram": "https://www.instagram.com/",
         "youtube": "https://www.youtube.com/"
     },
-    "domain": "https://www.codestitch.app",
+    "domain": "https://bespoke-template.netlify.app",
     "logo_url": "/assets/images/bespokelogonotexttt.png"
 }
