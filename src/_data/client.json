@@ -4,10 +4,10 @@
     "phoneForTel": "555-123-4567",
     "phoneFormatted": "(555) 123-4567",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
+        "lineOne": "Edmonton, Alberta CA",
+        "lineTwo": "",
+        "city": "Edmonton",
+        "state": "Alberta",
         "zip": "80206",
         "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
     },

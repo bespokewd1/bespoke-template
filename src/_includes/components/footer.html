@@ -50,20 +50,20 @@
                 <li class="cs-li">
                     <a class="cs-link" href="tel:555-497-1900">
                         <img class="cs-contact-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-grey.svg" alt="phone icon" width="20" height="20">
-                        555-497-1900
+                        {{ client.phoneFormatted }}
                     </a>
                 </li>
                 <li class="cs-li">
                     <a class="cs-link" href="mailto:office@email.com">
                         <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmessage-grey.svg" alt="email icon" width="20" height="20">
-                        office@email.com
+                        {{ client.email }}
                     </a>
                 </li>
                 <li class="cs-li">
                     <!--Make this link go to the google page-->
                     <a class="cs-link" href="" target="_blank">
                         <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fpin-grey.svg" alt="pin icon" width="20" height="20">
-                        555 Olive Crt, Montclair, CA
+                        {{ client.lineOne }} {{ client.lineTwo }}
                     </a>
                 </li>
             </ul>
