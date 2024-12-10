@@ -58,7 +58,7 @@ eleventyNavigation:
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Phone</span>
-                        <a href="tel:888-4565-789
+                        <a href="tel:{{ client.phoneForTel }}
                         " class="cs-link">{{ client.phoneFormatted }}
                         </a>
                     </div>
@@ -69,7 +69,7 @@ eleventyNavigation:
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Email</span>
-                        <a href="mailto:Email@stitch.com" class="cs-link">{{ client.email }}</a>
+                        <a href="mailto:{{ client.email }}" class="cs-link">{{ client.email }}</a>
                     </div>
                 </li>
                 <li class="cs-li">
@@ -78,7 +78,7 @@ eleventyNavigation:
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Address</span>
-                        <a href="" class="cs-link">{{ client.address.lineOne }} {{ client.address.lineTwo }}</a>
+                        <a href="{{ client.address.mapLink }}" class="cs-link" target="_blank">{{ client.address.lineOne }} {{ client.address.lineTwo }}</a>
                     </div>
                 </li>
             </ul>

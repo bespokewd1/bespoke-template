@@ -48,20 +48,20 @@
                     </a>
                 </li>
                 <li class="cs-li">
-                    <a class="cs-link" href="tel:555-497-1900">
+                    <a class="cs-link" href="tel:{{ client.phoneForTel }}">
                         <img class="cs-contact-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-grey.svg" alt="phone icon" width="20" height="20">
                         {{ client.phoneFormatted }}
                     </a>
                 </li>
                 <li class="cs-li">
-                    <a class="cs-link" href="mailto:office@email.com">
+                    <a class="cs-link" href="mailto:{{ client.email }}">
                         <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmessage-grey.svg" alt="email icon" width="20" height="20">
                         {{ client.email }}
                     </a>
                 </li>
                 <li class="cs-li">
                     <!--Make this link go to the google page-->
-                    <a class="cs-link" href="" target="_blank">
+                    <a class="cs-link" href="{{ client.address.mapLink }}" target="_blank">
                         <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fpin-grey.svg" alt="pin icon" width="20" height="20">
                         {{ client.address.lineOne }} {{ client.address.lineTwo }}
                     </a>
@@ -71,11 +71,11 @@
     </div>
     <div class="cs-bottom">
         <span class="cs-credit">
-            © Copyright 2024 <a href="" class="cs-credit-link" target="_blank">Bespoke Web Design</a>
+            © Copyright 2024 <a href="https://bespokewebdesign.ca/" class="cs-credit-link" target="_blank">Bespoke Web Design</a>
         </span>
         <div class="cs-bottom-links">
-            <a href="" class="cs-bottom-link">Privacy Policy</a>
-            <a href="" class="cs-bottom-link">Terms Of Use</a>
+            <a href="/" class="cs-bottom-link">Privacy Policy</a>
+            <a href="/" class="cs-bottom-link">Terms Of Use</a>
         </div>
     </div>
 </footer>
